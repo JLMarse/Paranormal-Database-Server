@@ -9,13 +9,13 @@ const userSchema = new Schema(
     name: {
       type: String,
       required: [true, 'Name is required.'],
-      lowercase: true,
+
       trim: true
     },
     lastName: {
       type: String,
       required: [true, 'Last name is required.'],
-      lowercase: true,
+
       trim: true
     },
     avatar: {

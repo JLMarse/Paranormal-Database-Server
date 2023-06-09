@@ -111,6 +111,12 @@ router.put("/users/:id/favoriteEvents/add", (req, res, next) => {
     .catch((err) => next(err));
 });
 
+/* router.get("/paranormalevents/random", (req, res, next) => {
+  Event.aggregate([{ $sample: { size: 1 } }])
+    .then(event => res.json(event[0]))
+    .catch(err => next(err));
+});
+ */
 
 
 

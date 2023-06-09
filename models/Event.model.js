@@ -28,7 +28,9 @@ const eventSchema = new Schema(
             },
         },
         date: {
-            type: Date
+            type: String,
+            trim: true,
+            default: ''
         },
         furtherDetails: {
             type: String,
