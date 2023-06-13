@@ -1,3 +1,10 @@
+Paranormal Database
+
+Project in react in which paranormal events around the world are collected. Registered users can contribute their own reports.
+
+
+
+
 Paranormal Events Routes
 
 Base URL /paranormalEvents
